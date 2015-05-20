@@ -30,16 +30,16 @@ Shaping Data
 
 
 Code Book
-x_locations - The locations of the x training and test data files
-y_locations - The locations of the y training and test data files
-subject_locations - The locations of the subject training and test data files
-features - The location of the feature file
-x_dataset - Data frame containing the data from the x training dataset
-subject_test_dataset - Data frame containing the subject data from the subject test dataset
-temp_x_dataset - Temporary variable to store the x test dataset
-subject_train_dataset - Data frame containing the subject data from the subject training dataset
-feature_list - Single row vector that contains all the features
-combined_dataset - Combination of all the above datasets into one large data frame
-fix_names - Variable holding modified column names for the combined_dataset data frame
-new_names - Variable to hold modified column names for the combined_dataset data frame
-tidy_dataset - Dataset containing the mean for each subject and activity for each feature
+- x_locations - The locations of the x training and test data files
+- y_locations - The locations of the y training and test data files
+- subject_locations - The locations of the subject training and test data files
+- features - The location of the feature file
+- x_dataset - Data frame containing the data from the x training dataset
+- subject_test_dataset - Data frame containing the subject data from the subject test dataset
+- temp_x_dataset - Temporary variable to store the x test dataset
+- subject_train_dataset - Data frame containing the subject data from the subject training dataset
+- feature_list - Single row vector that contains all the features
+- combined_dataset - Combination of all the above datasets into one large data frame
+- fix_names - Variable holding modified column names for the combined_dataset data frame
+- new_names - Variable to hold modified column names for the combined_dataset data frame
+- tidy_dataset - Dataset containing the mean for each subject and activity for each feature
